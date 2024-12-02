@@ -1,0 +1,223 @@
+header{
+  height: 55px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  
+  background-color: white;
+  margin-bottom: 2%;
+  padding-top: 0.5%;
+  padding-bottom: 0.5%;
+  position: fixed;
+  left: 0px;
+  right: 0px;
+  top: 0;
+  z-index: 1;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(243, 235, 235); 
+  
+}
+
+.left-section{
+
+width: 250px;
+display: flex;
+align-items: center;
+
+margin-left: 3%;
+}
+
+.middle-section{
+
+flex: 1;
+margin-left: 100px;
+margin-top: 0.6%;
+margin-right: 55px;
+max-width: 700px;
+display: flex;
+align-items: center;
+height: 41px;
+}
+
+.right-section{
+
+width: 300px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-right: 3%;
+flex-shrink: 0;
+
+}
+
+
+.hamburger-menu{
+  width: 28px;
+  cursor: pointer;
+}
+
+.logo{
+  width: 110px;
+  margin-left: 48%;
+
+}
+
+.searchbar{
+  height: 41px;
+  flex: 1;
+  max-width: 880px;
+  border-radius: 3px;
+  font-size: 18.5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: silver;
+  padding-left: 10px;
+  box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.15);
+  width: 0;
+}
+
+.searchbar::placeholder{
+  font-family: Arial;
+  color: rgb(110, 110, 110);
+  font-size: 18.5px;
+  
+}
+
+.search-button{
+  height: 44.7px;
+  width: 68px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: silver;
+  cursor: pointer;
+}
+
+
+.search{
+  width: 24px;
+  
+}
+
+.tooltip{
+  position: relative;
+  margin: 0;
+ 
+}
+
+.search-button, 
+.voice-rec-button,
+.upload-button,
+.apps-button,
+.notification-button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-button .tooltip,
+.voice-rec-button .tooltip,
+.upload-button .tooltip,
+.notification-button .tooltip,
+.apps-button .tooltip{
+  position: absolute; 
+  background-color: grey;
+  bottom: -28.6px;
+  padding: 8px 9px 8px 9px;
+  color: white;
+  font-size: 85%;
+  border-radius: 3.7px;
+  opacity: 0;
+  transition: opacity 0.19s;
+  pointer-events: none;
+  white-space: nowrap;
+  display: flex;
+  justify-content: center;
+  
+}
+
+.search-button:hover .tooltip,
+.voice-rec-button:hover .tooltip,
+.upload-button:hover .tooltip,
+.apps-button:hover .tooltip,
+.notification-button:hover .tooltip{
+  opacity: 1;
+}
+
+.voice-rec-button{
+  padding-left: 0.81%;
+  padding-top: 0.81%;
+  padding-bottom: 0.71%;
+  padding-right: 0.81%;
+  margin-left: 3%;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+
+
+
+.voice-rec-img{
+  width: 30px;
+}
+
+.upload-button{
+  background-color: white;
+  border: none;
+  cursor: pointer;
+  margin-top: 0.58%;
+}
+
+.upload-img{
+  width: 30px;
+
+}
+
+
+.apps-button{
+  background-color: white;
+  border: none;
+  cursor: pointer;
+  margin-top: 1%;
+}
+
+.apps-img{
+  width: 31px;
+
+}
+
+.notification-button{
+  background-color: white;
+  border: none;
+  cursor: pointer;
+  margin-top: 2.5%;
+  padding: 3px;
+}
+
+.notification-img{
+  width: 31px;
+  
+}
+
+.notif-num{
+  background-color: rgb(211, 3, 3);
+  color: white;
+  position: absolute;
+  top: 3px;
+  right: 0;
+  margin: 0px;
+  padding: 10% 18% 10% 18%;
+  font-size: 65%;
+  border-radius: 60px;
+;
+}
+
+.notif-div{
+  position: relative;
+}
+
+.profile-pic{
+  width: 38px;
+
+}

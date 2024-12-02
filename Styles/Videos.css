@@ -1,0 +1,175 @@
+.boss_cont{
+  margin-left: 0%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 1%;
+  row-gap: 3.5%;
+}
+
+@media (min-width: 1301px) {
+
+  .boss_cont{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  
+  }
+
+@media (min-width: 1101px) and (max-width: 1300px) {
+
+  .boss_cont{
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  
+  }
+
+@media (min-width: 801px) and (max-width: 1100px) {
+
+  .boss_cont{
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+    @media (max-width: 800px) {
+
+      .boss_cont{
+        grid-template-columns: 1fr;
+      }
+      
+      }
+
+
+
+.thumbnail{
+  width: 100%;
+
+}
+
+.thumbnail-div{
+  position: relative;
+}
+
+.time{
+  position: absolute;
+  bottom: 0;
+  right: 7px;
+  background-color: black;
+  color: wheat;
+  font-size: 86%;
+  font-weight: bold;
+  padding: 4px;
+  border-radius: 4px;
+}
+
+.second_container{
+
+  margin-top: 4%;
+  display: grid;
+  grid-template-columns: 67px 1fr;
+}
+
+.video_info{
+  
+}
+
+
+.channel_pic{
+  vertical-align: middle;
+  border-radius: 50px;
+  width: 47px;
+  opacity: 1;
+  margin: 0%;
+
+}
+
+
+.channel_pic_wrapper{
+  position: relative;
+  width: 47px;
+  margin: 0;
+  cursor: pointer;
+  height: 47px;
+ 
+}
+
+
+
+
+
+.channel_pic_wrapper .channel-pic-tooltip{
+  display: flex;
+  background-color: rgb(255, 255, 255);
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 62px;
+  padding-top: 11px;
+  padding-bottom: 11px;
+  position: absolute;
+  bottom: -84px;
+  left: 0px;
+  box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.33);
+  border-radius: 10px;
+  opacity: 0;
+  transition: opacity 0.22s;
+  pointer-events: none;
+}
+
+
+
+.channel_pic_wrapper:hover .channel-pic-tooltip{
+  opacity: 1;
+}
+
+
+
+  .tooltip-pic{
+    border-radius: 50px;
+    height: 57px;
+    width: 57px;
+    margin-right: 10px;
+
+  }
+
+  .tooltip-name{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 107%;
+    white-space: nowrap;
+    margin: 0;
+    line-height: 35px;
+    
+  }
+
+.subs{
+  margin: 0;
+  font-weight: 100px;
+  color: gray;
+  white-space: nowrap;
+}
+
+.title_of_video{
+  
+  font-weight: bold;
+  font-size: 100%;
+
+  margin-top: 0%;
+  margin-bottom: 3.6%;
+  line-height: 27px;
+}
+
+.channel_name{
+
+color: rgb(73, 72, 72);
+margin-top: 0%;
+margin-bottom: 0%;
+line-height: 200%;
+font-size: 80%;
+}
+
+.views_time{
+  display: block;
+  color: rgb(99, 96, 96);
+  margin: 0%;
+  font-size: 80%;
+}
+
+
